@@ -638,12 +638,6 @@ When adding features, always test against all three dialects using the integrati
 ✅ **Actively Maintained** - Regular updates and security patches
 ✅ **Stable API** - Semantic versioning with backward compatibility guarantee
 
-### Upcoming Features (Roadmap)
-- 🔄 **Performance Monitoring** - Query execution time tracking and logging
-- 🔄 **Query Caching Layer** - Optional query result caching
-- 🔄 **Migration Tools** - Schema migration helpers
-- 🔄 **Extended Dialects** - Microsoft SQL Server, Oracle support
-
 ### Licensing
 
 **Noncommercial Use**: This project is licensed under the **PolyForm Noncommercial License 1.0.0** for:
@@ -659,15 +653,6 @@ When adding features, always test against all three dialects using the integrati
 Commercial licensing includes priority support, custom features, and migration assistance.
 
 ---
-
-## Contributing
-
-Contributions are welcome! Please ensure:
-1. All tests pass (`make phpunit`)
-2. Code follows PSR-12 (`make phpcs`)
-3. PHPStan Level 8 passes (`make phpstan`)
-4. New features include tests for all supported dialects
-5. Documentation is updated
 
 ## Support
 
@@ -689,5 +674,3 @@ Contact **jardiscore@headgent.dev** for enterprise support inquiries.
 ## Acknowledgments
 
 Built with modern PHP practices and battle-tested in production environments. DbQuery represents years of real-world enterprise development experience, distilled into a single, powerful library.
-
-**Special thanks** to all contributors, early adopters, and users who help improve this library through feedback and contributions.
