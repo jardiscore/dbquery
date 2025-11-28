@@ -153,19 +153,6 @@ $result = $query->sql('mysql');  // Or 'postgres' or 'sqlite'
 - ✅ **Expression Support** - Raw SQL expressions when you need them
 - ✅ **Query Inspection** - Examine generated SQL and bindings before execution
 
-## DbQuery vs. Alternatives
-
-| Feature | DbQuery | Doctrine DBAL | Laravel Query Builder | Raw PDO |
-|---------|---------|---------------|----------------------|---------|
-| **Window Functions** | ✅ Full Support | ❌ Manual SQL | ⚠️ Limited | ⚠️ Manual SQL |
-| **Recursive CTEs** | ✅ Native API | ❌ Manual SQL | ❌ Not Supported | ⚠️ Manual SQL |
-| **JSON Operations** | ✅ Cross-DB Abstraction | ⚠️ DB-Specific | ⚠️ DB-Specific | ❌ Manual |
-| **Conflict Handling** | ✅ All Dialects | ⚠️ Limited | ⚠️ MySQL Only | ❌ Manual |
-| **PHPStan Level 8** | ✅ Certified | ⚠️ Partial | ⚠️ Partial | ❌ No Types |
-| **Zero Dependencies** | ✅ PDO Only | ❌ Heavy | ❌ Framework | ✅ PDO Only |
-| **Type Safety** | ✅ Strict Types | ⚠️ Mixed | ⚠️ Mixed | ❌ Loose |
-| **Learning Curve** | ✅ Intuitive | ⚠️ Complex | ✅ Easy | ⚠️ SQL Knowledge |
-
 **DbQuery is the only PHP query builder that combines:**
 - Enterprise-level SQL features (window functions, recursive CTEs)
 - True cross-database JSON abstraction
